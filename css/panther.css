@@ -1,0 +1,329 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  font-family: sans-serif;
+
+}
+/* nav css starts */
+.navbar{
+  position: relative;
+  display: block;
+}
+nav{
+  box-sizing: border-box;
+  background: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.logo {
+  width: 20%;
+  padding-left: 50px;
+}
+.logo a{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu{
+  margin-left : 170px;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  float: left;
+  list-style: none;
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 20px 25px;
+  display: block;
+}
+ul li a:hover{
+  display: block;
+  position: relative;
+  padding-bottom: 18px;
+  color: red;
+  border-bottom: 2px solid red;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background: black;
+  min-width: 150px;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown-content a{
+  display: block;
+}
+
+.search{
+  outline: none;
+}
+.search .fa{
+  color: white;
+  float: right;
+  position: absolute;
+  padding: 10px;
+  margin-left: 350px;
+  opacity: 50%;
+
+}
+.search input{
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid white;
+  position: relative;
+  margin-left: 200px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+/* navbar css ends */
+
+
+/* banner starts */
+#banner{
+  background: url("../images/panther_raiders.jpg") no-repeat center center fixed;
+  display: table;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.text{
+  display: inline-block;
+  padding: 0px 150px;
+  padding-bottom: 50px;
+  text-align: justify;
+  margin-top: 200px;
+  line-height: 45px;
+}
+
+.text h2{
+  margin-left: 390px;
+  font-size: 40px;
+  text-align: center;
+}
+.text h3{
+  margin-left: 390px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.text hr{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 7px;
+  width: 30%;
+  margin-left: 440px;
+}
+
+/* banner ends */
+
+
+/* images starts */
+
+.images{
+  display: inline-block;
+  width: 80%;
+  align-items: center;
+  margin-left: 155px;
+  padding: 70px 0px;
+}
+.images img{
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  width: 300px;
+}
+.images p{
+  text-align: justify;
+  text-indent: 10px;
+  width: 250px;
+  margin: 20px;
+}
+
+.images h2{
+  margin-top: 20px;
+  text-align: center;
+}
+.images h3{
+  text-align: center;
+}
+.images i{
+  display: inline-block;
+  color: gray;
+  font-size: 25px;
+  margin: 12px 10px;
+}
+.images i:hover{
+  color: red;
+}
+
+
+.images .awesome{
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.images .players1{
+  border-width: 20px;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 20px;
+}
+.images .players2{
+  border-width: 20px;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 20px;
+}
+.images .players3{
+  border-width: 20px;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+
+/* images ends */
+
+
+/* footer starts */
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+}
+
+.main-content{
+  display: flex;
+  padding: 30px;
+
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+  color: white;
+}
+.box h2{
+  padding-top: 25px;
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.box .content{
+  text-align: center;
+  margin: 20px 0 0 0;
+  line-height: 25px;
+  font-size: 14px;
+}
+.center .content .social a{
+  padding:40px 20px;
+  height: 40px;
+  width: 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.center .content .social a:hover{
+  padding:40px 20px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: Red;
+  text-decoration: none;
+}
+.center .contact h2{
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.box .form{
+  margin-left: 25%;
+}
+
+.btn{
+  margin-left: 25%;
+  outline: none;
+  margin-top: 30px;
+}
+.btn a:hover{
+  background: red;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  border: none;
+  background: green;
+  color: white;
+  padding: 10px 85px;
+  border-radius: 20px;
+
+}
+
+.right .content input{
+  display: flex;
+  background: none;
+  border: none;
+  padding: 10px;
+  border-bottom: 1px solid green;
+  position: relative;
+  margin: 20px 0 0 0;
+  line-height: 25px;
+  font-size: 14px;
+  outline: none;
+  color: white;
+}
+
+.right .form{
+  text-align: center;
+  position: relative;
+}
+
+/* .box button{
+  margin-top: 20px;
+  border: none;
+  background: green;
+  color: white;
+  padding: 8px 85px;
+  border-radius: 20px;
+} */
+.foot{
+  padding-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.credit{
+  display: block;
+  position: relative;
+  background: black;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-family: cursive;
+}
+/* footer ends */

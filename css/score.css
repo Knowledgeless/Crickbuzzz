@@ -1,0 +1,267 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  font-family: sans-serif;
+
+/* navbar css starts */
+}
+.navbar{
+  position: relative;
+  display: block;
+}
+
+nav{
+  box-sizing: border-box;
+  background: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.logo {
+  width: 20%;
+  padding-left: 50px;
+}
+.logo a{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu{
+  margin-left : 170px;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  float: left;
+  list-style: none;
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 20px 25px;
+  display: block;
+}
+ul li a:hover{
+  display: block;
+  position: relative;
+  padding-bottom: 18px;
+  color: red;
+  border-bottom: 2px solid red;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background: black;
+  min-width: 150px;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown-content a{
+  display: block;
+}
+
+.search{
+  outline: none;
+}
+.search .fa{
+  color: white;
+  float: right;
+  position: absolute;
+  padding: 10px;
+  margin-left: 350px;
+  opacity: 50%;
+
+}
+.search input{
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid white;
+  position: relative;
+  margin-left: 200px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+/* navbar css ends */
+
+/* Score starts */
+.runs{
+  padding: 34px;
+  padding-bottom: 80px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 95%;
+}
+
+table, td, th{
+  border: 1px solid black;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+td, th{
+  padding: 20px;
+  text-align: center;
+}
+
+.text{
+  float: right;
+  margin-bottom: 50px;
+}
+.text h1{
+  margin-top: 50px;
+  margin-right: 530px;
+  font-size: 40px;
+}
+
+.text hr{
+  margin-right: 530px;
+  margin-top: 10px;
+  border: 2px solid red;
+  width: 130px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+
+/* score ends */
+
+
+
+/* footer starts */
+
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+}
+
+.main-content{
+  display: flex;
+  padding: 30px;
+
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+  color: white;
+}
+.box h2{
+  padding-top: 25px;
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.box .content{
+  text-align: center;
+  margin: 20px 0 0 0;
+  line-height: 25px;
+  font-size: 14px;
+}
+.center .content .social a{
+  padding:40px 20px;
+  height: 40px;
+  width: 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.center .content .social a:hover{
+  padding:40px 20px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: Red;
+  text-decoration: none;
+}
+.center .contact h2{
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.box .form{
+  margin-left: 25%;
+}
+
+.btn{
+  margin-left: 25%;
+  outline: none;
+  margin-top: 30px;
+}
+.btn a:hover{
+  background: red;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  border: none;
+  background: green;
+  color: white;
+  padding: 10px 85px;
+  border-radius: 20px;
+
+}
+
+.right .content input{
+  display: flex;
+  background: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-bottom: 1px solid green;
+  position: relative;
+  margin: 20px 0 0 0;
+  line-height: 25px;
+  font-size: 14px;
+  outline: none;
+}
+
+.right .form{
+  text-align: center;
+  position: relative;
+}
+
+/* .box button{
+  margin-top: 20px;
+  border: none;
+  background: green;
+  color: white;
+  padding: 8px 85px;
+  border-radius: 20px;
+} */
+.foot{
+  padding-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.credit{
+  display: block;
+  position: relative;
+  background: black;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-family: cursive;
+}
+/* footer ends */
